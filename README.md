@@ -29,7 +29,7 @@ You can install SwiftyTools via [Swift Package Manager](https://swift.org/packag
 
 ```swift
 dependencies: [
-    .package(url: "https://github.com/YourUsername/SwiftyTools.git", from: "1.0.0")
+    .package(url: "https://github.com/Amit-007/swiftyTools.git", from: "1.0.0")
 ]
 ```
 
@@ -67,7 +67,7 @@ if email.isValidEmail {
     print("This is a valid email.")
 }
 
-let reversed = "Hello".reversedString // "olleH"
+let trimmedString = "  Hello  ".trimmed // "Hello"
 ```
 
 ### Array Utilities
